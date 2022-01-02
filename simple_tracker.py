@@ -95,7 +95,7 @@ class AmazonAPI:
             links = [link.get_attribute(" href=") for link in results]
             return links
         except Exception as e:
-            print("Didn't get any products...")
+            #print("Didn't get any products...")
             print(e)
             return links
 
